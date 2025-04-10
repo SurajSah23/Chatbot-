@@ -30,7 +30,7 @@ const steps = [
   },
   {
     id: 'about',
-    message: 'I am a simple chatbot created to demonstrate React and Redux Toolkit integration!',
+    message: 'I am a simple chatbot created with React and Redux Toolkit integration!',
     trigger: 'options',
   },
   {
@@ -69,7 +69,7 @@ const CustomChatbot = () => {
             </div>
           }
           botAvatar="https://api.dicebear.com/7.x/bottts/svg?seed=bot"
-          userAvatar="https://api.dicebear.com/7.x/avataaars/svg?seed=user"
+          userAvatar="https://api.dicebear.com/9.x/bottts/webp"
           customStyle={{
             background: '#f9fafb',
             headerBgColor: '#4f46e5',
@@ -81,8 +81,8 @@ const CustomChatbot = () => {
             userFontColor: '#1f2937',
           }}
           bubbleOptionStyle={{
-            background: '#4f46e5',
-            color: '#ffffff',
+                background: '#4f46e5',
+                color: '#ffffff',
           }}
           width="100%"
         />
