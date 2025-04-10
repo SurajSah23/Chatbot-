@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Optional: Customize react-chatbot-kit */
+.react-chatbot-kit-chat-container {
+    background-color: #f9fafb;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .react-chatbot-kit-user-chat-message {
+    background-color: #6366f1 !important; /* Indigo-500 */
+    color: white !important;
+    border-radius: 1rem !important;
+    padding: 0.5rem 1rem !important;
+    max-width: 80%;
+  }
+  
+  .react-chatbot-kit-chat-bot-message {
+    background-color: #e0e7ff !important; /* Indigo-100 */
+    color: black !important;
+    border-radius: 1rem !important;
+    padding: 0.5rem 1rem !important;
+    max-width: 80%;
+  }
