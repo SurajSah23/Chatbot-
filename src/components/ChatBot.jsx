@@ -51,7 +51,6 @@ const CustomChatbot = () => {
   const handleEnd = ({ steps, values }) => {
     console.log('Chat Ended:', steps, values);
     dispatch(addMessage({
-      id: Date.now().toString(),
       message: 'Chat ended by user.',
       user: false,
     }));
@@ -70,20 +69,6 @@ const CustomChatbot = () => {
           }
           botAvatar="https://api.dicebear.com/7.x/bottts/svg?seed=bot"
           userAvatar="https://api.dicebear.com/9.x/bottts/webp"
-          customStyle={{
-            background: '#f9fafb',
-            headerBgColor: '#4f46e5',
-            headerFontColor: '#ffffff',
-            headerFontSize: '16px',
-            botBubbleColor: '#4f46e5',
-            botFontColor: '#ffffff',
-            userBubbleColor: '#e5e7eb',
-            userFontColor: '#1f2937',
-          }}
-          bubbleOptionStyle={{
-                background: '#4f46e5',
-                color: '#ffffff',
-          }}
           width="100%"
         />
       </div>
