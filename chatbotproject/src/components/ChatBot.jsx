@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { addMessage } from '../features/chatSlice';
 import { FaRobot } from 'react-icons/fa';
 
-const steps = [
+const suraj = [
   {
     id: '1',
     message: 'Hello! I am a simple chatbot. What is your name?',
@@ -60,7 +60,7 @@ const CustomChatbot = () => {
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-4">
         <ChatBot
-          steps={steps}
+          steps={suraj}
           handleEnd={handleEnd}
           headerTitle={
             <div className="flex items-center gap-2">
